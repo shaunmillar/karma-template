@@ -6,11 +6,13 @@ This project assumes both node.js and bower have been previously installed.
 3. run 	npm install
 4. run 	bower install
 5. run 	karma init karma.conf.js
-6. update the js paths for angular, angular-mock, test/spec/**/*.js and main.js
-7. update the browser launcher plugin name if required
+6. Answer all the questions except the one regarding js file paths. This can be copied in later from the file karma.conf.js.bu.
+7. update the browser launcher plugin name if required. If a plugin for a particular browser is not available, look below for 
+instructions on how to add additional plugins. 
 8. run 	karma start karma.conf.js
 
 How to load additional broswer plugins (e.g. Firefox). 
+-----------------------------------------------------
 
 Go to: https://www.npmjs.com/browse/keyword/karma-launcher
 
