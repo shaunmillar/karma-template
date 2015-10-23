@@ -1,0 +1,24 @@
+Building the Karma template application.
+This project assumes both node.js and bower have been previously installed. 
+
+1. Create a new folder. 
+2. Copy all files (and folders) in this project to it. 
+3. run 	npm install
+4. run 	bower install
+5. run 	karma init karma.conf.js
+6. update the js paths for angular, angular-mock, test/spec/**/*.js and main.js
+7. update the browser launcher plugin name if required
+8. run 	karma start karma.conf.js
+
+How to load additional broswer plugins (e.g. Firefox). 
+
+Go to: https://www.npmjs.com/browse/keyword/karma-launcher
+
+Look for the launcher you need. I was looking for Firefox and then click on the link to 
+see the npm install command for your browser. 
+
+Firefox was: 
+npm install karma-firefox-launcher --save-dev
+but I'm going to use 
+npm install -g karma-firefox-launcher 
+instead so it's set globally.
