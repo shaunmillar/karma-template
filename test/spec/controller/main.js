@@ -19,5 +19,6 @@ describe('Unit: MainController', function() {
       expect(scope.greeting).toBeUndefined();
       scope.sayHello();
       expect(scope.greeting).toEqual("Hello Shaun");
+	  console.log("Scope.greeting says " + scope.greeting);
   });
 })
